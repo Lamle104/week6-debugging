@@ -21,6 +21,6 @@ def divide( first, second):
     #   2. if the second number is zero, an exception is raised, the exception text must say exactly the following (make sure everything including casing and spaces match)
     #       I'm sorry, I can't divide by zero
     #   3. returns the quotient of first and second
-if second == 0: #checks to see if the second number is zero
-    raise Exception ("I'm sorry, I can't divide by zero") #If the second number is zero, an exception is raised
-return first / second #returns the quotient of first and second
+    if second == 0: #checks to see if the second number is zero
+        raise Exception ("I'm sorry, I can't divide by zero") #If the second number is zero, an exception is raised
+    return first / second #returns the quotient of first and second
